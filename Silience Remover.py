@@ -75,7 +75,6 @@ def unvoiced_to_voiced_signals(datapath, new_data_set,sample_rate=22050, hop_len
                 creating_new_file(new_sig, file, data_set_file)
 
 if __name__ == "__main__":
-    hop_length = 512
     unvoiced_to_voiced_signals(DATASET_PATH, NEW_DATASET_PATH)
 
 
