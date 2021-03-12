@@ -6,7 +6,6 @@ import soundfile as sf
 DATASET_PATH = r"C:\Users\armag\Desktop\info"
 SAMPLE_RATE = 22050
 NEW_DATASET_PATH = r"C:\Users\armag\Desktop\NEWDATASET"
-json_path = "data_10.json"
 
 
 def rms(signal, hop_length=512, frame_size=1024):
