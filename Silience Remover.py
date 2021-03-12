@@ -3,7 +3,7 @@ import os
 import numpy as np
 import soundfile as sf
 
-DATASET_PATH = r"C:\Users\armag\Desktop\info"
+DATASET_PATH = r"C:\Users\armag\Desktop\dataset"
 SAMPLE_RATE = 22050
 NEW_DATASET_PATH = r"C:\Users\armag\Desktop\NEWDATASET"
 
